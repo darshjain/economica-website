@@ -3,3 +3,6 @@
     border : 0;
     font: "sans-serif";
 }
+html{
+    scroll-behavior: smooth;
+}
