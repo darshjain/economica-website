@@ -4,15 +4,25 @@
   box-sizing: border-box;
   font: "sans-serif";
 }
+
+body{
+  background-color: #f3f1f5;
+}
 html {
   scroll-behavior: smooth;
 }
-.navbar{
-  background-color: white;
-}
+
 .logo-navbar {
     max-width: 08rem;
 }
 .navbar-brand{
   max-width: fit-content;
+}
+.card-main {
+  max-width: 1500px;
+  /* max-height: 300px; */
+}
+.card-main img{
+  width: 100%;
+  max-width: 50%;
 }
