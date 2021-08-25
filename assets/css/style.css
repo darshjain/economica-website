@@ -11,7 +11,7 @@ html {
   background-color: white;
 }
 .logo-navbar {
-    width: 08rem;
+    max-width: 08rem;
 }
 .navbar-brand{
   max-width: fit-content;
