@@ -1,491 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <!-- FontAwesome CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <script src="assets/js/main.js" type="text/javascript"></script>
-    <title>Economica</title>
-  </head>
-  <body>
-    <!-- navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img class="logo-navbar" src="./assets/images/logo.svg" alt="logo"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >About us</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Team</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown link
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <br /><br />
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+		<!-- FontAwesome CDN -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+		/>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<script src="assets/js/main.js" type="text/javascript"></script>
+		<title>Economica</title>
+	</head>
+	<body>
+		<!-- navigation -->
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"
+					><img
+						class="logo-navbar"
+						src="./assets/images/logo.svg"
+						alt="logo"
+				/></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown"
+					aria-controls="navbarNavDropdown"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="#"
+								>About us</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Events</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Team</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdownMenuLink"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Dropdown link
+							</a>
+							<ul
+								class="dropdown-menu"
+								aria-labelledby="navbarDropdownMenuLink"
+							>
+								<li>
+									<a class="dropdown-item" href="#">Action</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#"
+										>Another action</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#"
+										>Something else here</a
+									>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<br /><br />
 
-    <!-- Teams -->
-    
-    <section class="team" id="team">
-      <div class="section-header">
-        <h1 class="section-title">OUR TEAM</h1>
-        <h2 class="section-tagline">ROLES AND CONTACTS</h2>
-        <hr class="section-hr" />
-      </div>
-      <div class="container">
-        <div class="card-deck justify-content-center align-items-center">
-          <div class="team-member">
-            <div class="card bg-dark">
-              <img
-                src="https://github.com/darshjain.png"
-                alt="User avatar"
-                class="card-img"
-              />
-              <div
-                class="card-img-overlay text-center justify-content-center align-items-center"
-              >
-                <div
-                  class="position-relative h-100 justify-content-center align-items-center"
-                >
-                  <div class="card-text align-self-center">
-                    <h5>9987109967</h5>
-                    <p class="card-text">
-                      <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                      <a href=""><i class="fab fa-instagram mr-2"></i></a>
-                      <a href=""><i class="fab fa-linkedin"></i></a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-center member-info">
-              <h3>Nitin Ranganath</h3>
-              <h5>Team Leader</h5>
-            </div>
-          </div>
-          <div class="team-member">
-            <div class="card bg-dark">
-              <img
-                src="https://github.com/darshjain.png"
-                alt="User avatar"
-                class="card-img"
-              />
-              <div
-                class="card-img-overlay text-center justify-content-center align-items-center"
-              >
-                <div
-                  class="position-relative h-100 justify-content-center align-items-center"
-                >
-                  <div class="card-text align-self-center">
-                    <h5>9867802776</h5>
-                    <p class="card-text">
-                      <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                      <a href=""><i class="fab fa-instagram mr-2"></i></a>
-                      <a href=""><i class="fab fa-linkedin"></i></a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-center member-info">
-              <h3>Unnati Bamania</h3>
-              <h5>Event Manager</h5>
-            </div>
-          </div>
-        </div>
-        <div class="card-deck justify-content-center align-items-center">
-          <div class="team-member">
-            <div class="card bg-dark">
-              <img
-                src="https://github.com/darshjain.png"
-                alt="User avatar"
-                class="card-img"
-              />
-              <div
-                class="card-img-overlay text-center justify-content-center align-items-center"
-              >
-                <div
-                  class="position-relative h-100 justify-content-center align-items-center"
-                >
-                  <div class="card-text align-self-center">
-                    <h5>9167435591</h5>
-                    <p class="card-text">
-                      <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                      <a href=""><i class="fab fa-instagram mr-2"></i></a>
-                      <a href=""><i class="fab fa-linkedin"></i></a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-center member-info">
-              <h3>Prateek Sharma</h3>
-              <h5>Technical Head</h5>
-            </div>
-          </div>
-          <div class="team-member">
-            <div class="card bg-dark">
-              <img
-                src="https://github.com/darshjain.png"
-                alt="User avatar"
-                class="card-img"
-              />
-              <div
-                class="card-img-overlay text-center justify-content-center align-items-center"
-              >
-                <div
-                  class="position-relative h-100 justify-content-center align-items-center"
-                >
-                  <div class="card-text align-self-center">
-                    <h5>7204076265</h5>
-                    <p class="card-text">
-                      <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                      <a href=""><i class="fab fa-instagram mr-2"></i></a>
-                      <a href=""><i class="fab fa-linkedin"></i></a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-center member-info">
-              <h3>Rahul Devadiga</h3>
-              <h5>Marketing Head</h5>
-            </div>
-          </div>
+		<!-- Teams -->
 
-          <div class="team-member">
-            <div class="card bg-dark">
-              <img
-                src="https://github.com/darshjain.png"
-                alt="User avatar"
-                class="card-img"
-              />
-              <div
-                class="card-img-overlay text-center justify-content-center align-items-center"
-              >
-                <div
-                  class="position-relative h-100 justify-content-center align-items-center"
-                >
-                  <div class="card-text align-self-center">
-                    <h5>7039839912</h5>
-                    <p class="card-text">
-                      <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                      <a href=""><i class="fab fa-instagram mr-2"></i></a>
-                      <a href=""><i class="fab fa-linkedin"></i></a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-center member-info">
-              <h3>Shubhangi More</h3>
-              <h5>Marketing Head</h5>
-            </div>
-          </div>
-        </div>
-        <div class="card-deck justify-content-center align-items-center">
-          <div class="team-member">
-            <div class="card bg-dark">
-              <img
-                src="https://github.com/darshjain.png"
-                alt="User avatar"
-                class="card-img"
-              />
-              <div
-                class="card-img-overlay text-center justify-content-center align-items-center"
-              >
-                <div
-                  class="position-relative h-100 justify-content-center align-items-center"
-                >
-                  <div class="card-text align-self-center">
-                    <h5>8879799746</h5>
-                    <p class="card-text">
-                      <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                      <a href=""><i class="fab fa-instagram mr-2"></i></a>
-                      <a href=""><i class="fab fa-linkedin"></i></a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-center member-info">
-              <h3>Delcy DSouza</h3>
-              <h5>Public Relations Head</h5>
-            </div>
-          </div>
+		<section class="team" id="team">
+			<div class="section-header">
+				<h1 class="section-title">Departments Under Arthotsav</h1>
+				<hr class="section-hr" />
+			</div>
+		</section>
+		<div class="container container-fluid">
+			<!-- ROW1 -->
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="card mb-3" style="max-width: 540px">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img
+									src="..."
+									class="img-fluid rounded-start"
+									alt="..."
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h5 class="card-title">PR</h5>
+									<p class="card-text">
+										MAINTAINING THE PRIDE AND PRESTIGE OF
+										ARTHOTSAV, THIS DEPARTMENT IS THE FRONT
+										FACE THAT HANDLES ALL THE PROMOTION OF
+										THE EVENTS. LEAVE IT TO THIS DEPARTMENT
+										TO BE PROPER AND PROFESSIONAL
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-          <div class="team-member">
-            <div class="card bg-dark">
-              <img
-                src="https://github.com/darshjain.png"
-                alt="User avatar"
-                class="card-img"
-              />
-              <div
-                class="card-img-overlay text-center justify-content-center align-items-center"
-              >
-                <div
-                  class="position-relative h-100 justify-content-center align-items-center"
-                >
-                  <div class="card-text align-self-center">
-                    <h5>8793620648</h5>
-                    <p class="card-text">
-                      <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                      <a href=""><i class="fab fa-instagram mr-2"></i></a>
-                      <a href=""><i class="fab fa-linkedin"></i></a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-center member-info">
-              <h3>Pratik Kunder</h3>
-              <h5>Operations Head</h5>
-            </div>
-          </div>
-          <div class="team-member">
-            <div class="card bg-dark">
-              <img
-                src="https://github.com/darshjain.png"
-                alt="User avatar"
-                class="card-img"
-              />
-              <div
-                class="card-img-overlay text-center justify-content-center align-items-center"
-              >
-                <div
-                  class="position-relative h-100 justify-content-center align-items-center"
-                >
-                  <div class="card-text align-self-center">
-                    <h5>9004544419</h5>
-                    <p class="card-text">
-                      <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                      <a href=""><i class="fab fa-instagram mr-2"></i></a>
-                      <a href=""><i class="fab fa-linkedin"></i></a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-center member-info">
-              <h3>Moksha Mathur</h3>
-              <h5>Logistics Head</h5>
-            </div>
-          </div>
-        </div>
-        <div class="card-deck justify-content-center align-items-center">
-          <div class="team-member">
-            <div class="card bg-dark">
-              <img
-                src="https://github.com/darshjain.png"
-                alt="User avatar"
-                class="card-img"
-              />
-              <div
-                class="card-img-overlay text-center justify-content-center align-items-center"
-              >
-                <div
-                  class="position-relative h-100 justify-content-center align-items-center"
-                >
-                  <div class="card-text align-self-center">
-                    <h5>9969535172</h5>
-                    <p class="card-text">
-                      <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                      <a href=""><i class="fab fa-instagram mr-2"></i></a>
-                      <a href=""><i class="fab fa-linkedin"></i></a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-center member-info">
-              <h3>Neeraja Apte</h3>
-              <h5>Content Head</h5>
-            </div>
-          </div>
-          <div class="team-member">
-            <div class="card bg-dark">
-              <img
-                src="https://github.com/darshjain.png"
-                alt="User avatar"
-                class="card-img"
-              />
-              <div
-                class="card-img-overlay text-center justify-content-center align-items-center"
-              >
-                <div
-                  class="position-relative h-100 justify-content-center align-items-center"
-                >
-                  <div class="card-text align-self-center">
-                    <h5>8691822700</h5>
-                    <p class="card-text">
-                      <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                      <a href=""><i class="fab fa-instagram mr-2"></i></a>
-                      <a href=""><i class="fab fa-linkedin"></i></a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-center member-info">
-              <h3>Mehreen Malik</h3>
-              <h5>Oratory Head</h5>
-            </div>
-          </div>
-          <div class="team-member">
-            <div class="card bg-dark">
-              <img
-                src="https://github.com/darshjain.png"
-                alt="User avatar"
-                class="card-img"
-              />
-              <div
-                class="card-img-overlay text-center justify-content-center align-items-center"
-              >
-                <div
-                  class="position-relative h-100 justify-content-center align-items-center"
-                >
-                  <div class="card-text align-self-center">
-                    <h5>9930014320</h5>
-                    <p class="card-text">
-                      <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                      <a href=""><i class="fab fa-instagram mr-2"></i></a>
-                      <a href=""><i class="fab fa-linkedin"></i></a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-center member-info">
-              <h3>Manav Singh</h3>
-              <h5>Finance Head</h5>
-            </div>
-          </div>
-        </div>
-        <div class="card-deck justify-content-center align-items-center">
-          <div class="team-member">
-            <div class="card bg-dark">
-              <img
-                src="https://github.com/darshjain.png"
-                alt="User avatar"
-                class="card-img"
-              />
-              <div
-                class="card-img-overlay text-center justify-content-center align-items-center"
-              >
-                <div
-                  class="position-relative h-100 justify-content-center align-items-center"
-                >
-                  <div class="card-text align-self-center">
-                    <h5>9898418391</h5>
-                    <p class="card-text">
-                      <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                      <a href=""><i class="fab fa-instagram mr-2"></i></a>
-                      <a href=""><i class="fab fa-linkedin"></i></a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-center member-info">
-              <h3>Bhargav Joshi</h3>
-              <h5>Creative Head</h5>
-            </div>
-          </div>
-          <div class="team-member">
-            <div class="card bg-dark">
-              <img
-                src="https://github.com/darshjain.png"
-                alt="User avatar"
-                class="card-img"
-              />
-              <div
-                class="card-img-overlay text-center justify-content-center align-items-center"
-              >
-                <div
-                  class="position-relative h-100 justify-content-center align-items-center"
-                >
-                  <div class="card-text align-self-center">
-                    <h5>9699609968</h5>
-                    <p class="card-text">
-                      <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                      <a href=""><i class="fab fa-instagram mr-2"></i></a>
-                      <a href=""><i class="fab fa-linkedin"></i></a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-center member-info">
-              <h3>Manish Pandey</h3>
-              <h5>Social Media Head</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+				<div class="col-sm-6">
+					<div class="card mb-3" style="max-width: 540px">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img
+									src="..."
+									class="img-fluid rounded-start"
+									alt="..."
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h5 class="card-title">MARKETING</h5>
+									<p class="card-text">
+										THE MARKETING DEPARTMENT IS INCHARGE OF
+										THE ADVERTISING AND PUBLICISING OF THE
+										FEST. THEY ENCOURAGE MORE PEOPLE TO JOIN
+										AND PARTICIPATE. THEY CREATE BONDS AND
+										NEVER GO INTO RECESSION. PROBABLY THE
+										ONLY MARKET(ING) YOU DON'T HAVE TO BEAR
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
+			<!-- ROW2 -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="card mb-3" style="max-width: 540px">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img
+									src="..."
+									class="img-fluid rounded-start"
+									alt="..."
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h5 class="card-title">RESEARCH</h5>
+									<p class="card-text">
+										THIS DEPARTMENT BUILDS BLOCKS OF ALL THE
+										CONTENT AND UNDERTAKES THE STRENUOUS
+										TASKS OF FACT FINDING. CONFUSION HI
+										CONFUSION HAI BUT ALL IS WELL WHEN THE
+										RESEARCH DEPARTMENT SWOOPS IN TO HELP.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6">
+					<div class="card mb-3" style="max-width: 540px">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img
+									src="..."
+									class="img-fluid rounded-start"
+									alt="..."
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h5 class="card-title">FINANCE</h5>
+									<p class="card-text">
+										NOTHING MORE FUN THAN LOOKING AFTER
+										FUNDS! FINANCE DEPARTMENT HANDLES TASKS
+										LIKE MANAGING RESOURCES, ALLOCATION OF
+										SPONSORSHIP MONEY, MAINTAINING RECORD OF
+										ALL TRANSACTIONS, ETC. THEY'RE ALSO
+										RESPONSIBLE FOR ARTHOT-SAVINGS AND
+										ECONOMICA-L DECISIONS.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ROW3 -->
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="card mb-3" style="max-width: 540px">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img
+									src="..."
+									class="img-fluid rounded-start"
+									alt="..."
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h5 class="card-title">LITERARY ARTS</h5>
+									<p class="card-text">
+										THIS IS THE DEPARTMENT THAT HAS WRITTEN
+										THE WORDS YOU'RE READING! EVERYTHING
+										FROM BLOGS AND ARTICLES TO SOCIAL MEDIA
+										CAPTIONS COMES UNDER IT. LA VOLUNTEERS
+										ALSO FORMULATE NEW CONTENT IDEAS FOR
+										DIFFERENT PLATFORMS. REMEMBER, PEN-NY
+										WISE, POUND FOOLISH!
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6">
+					<div class="card mb-3" style="max-width: 540px">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img
+									src="..."
+									class="img-fluid rounded-start"
+									alt="..."
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h5 class="card-title">CREATIVES</h5>
+									<p class="card-text">
+										YOU CAN'T SPELL ARTHOTSAV WITHOUT ART!
+										WE ALL KNOW HOW MUCH AESTHETICS MATTER
+										AND THAT'S WHAT THE CREATIVES DEPARTMENT
+										WORKS ON. IT INCLUDES DESIGNING POSTS
+										FOR SOCIAL MEDIA, COMING UP WITH
+										ARTISTIC LAYOUTS FOR ALL CONTENT,
+										EDITING AND MUCH MORE.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ROW4 -->
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="card mb-3" style="max-width: 540px">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img
+									src="..."
+									class="img-fluid rounded-start"
+									alt="..."
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h5 class="card-title">LOGISTICS</h5>
+									<p class="card-text">
+										THIS DEPARTMENT TAKES CARE OF THE SMALL
+										BUT IMPORTANT TASKS LIKE NOTING DOWN
+										WHO’S PARTICIPATING AND KEEPING TRACK OF
+										THE WINNERS. REGISTRATIONS AND SCORING
+										ARE ALL PART OF LOGISTICS.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6">
+					<div class="card mb-3" style="max-width: 540px">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img
+									src="..."
+									class="img-fluid rounded-start"
+									alt="..."
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h5 class="card-title">TECH</h5>
+									<p class="card-text">
+										TECHNOMICS OF ARTHOTSAV! THIS DEPARTMENT
+										WORKS ON ALL THE TECHNICAL ASPECTS
+										BEHIND THE SCREENS. THE IMPORTANCE OF
+										THIS DEPARTMENT IS NOW MORE THAN EVER
+										BECAUSE THEY 'CTRL' THE HOSTING SO YOU
+										WOULDN'T BE ABLE TO 'ENTER' THE FEST
+										WITHOUT THEM.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ROW5 -->
+
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="card mb-3" style="max-width: 540px">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img
+									src="..."
+									class="img-fluid rounded-start"
+									alt="..."
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h5 class="card-title">SOCIAL MEDIA</h5>
+									<p class="card-text">
+										SOCIAL MEDIA DEPARTMENT MANAGES THE
+										ONLINE PRESENCE OF THE FEST. COMING UP
+										WITH INNOVATIVE CONTENT FOR POSTS,
+										STORIES, MEMES AND THE LIKE IS THEIR
+										CALLING. THE 'HIGHLIGHT' OF THE
+										DEPARTMENT IS THEIR ABILITY TO 'CLICK'
+										WITH PEOPLE
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6">
+					<div class="card mb-3" style="max-width: 540px">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img
+									src="..."
+									class="img-fluid rounded-start"
+									alt="..."
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h5 class="card-title">PHOTOGRAPHY</h5>
+									<p class="card-text">
+										THIS IS THE DEPARTMENT YOU WILL WANT TO
+										BE CAPTURED BY. THEY SHOULDER THE TASKS
+										OF TAKING PICTURES, RECORDING VIDEOS AND
+										FILLING UP MEMORY ROLLS. SHOOTING PEOPLE
+										WITH THE RIGHT FOCUS IS A PART OF THEIR
+										JOB.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ROW6 -->
+
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="card mb-3" style="max-width: 540px">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img
+									src="..."
+									class="img-fluid rounded-start"
+									alt="..."
+								/>
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h5 class="card-title">HOSPITALITY</h5>
+									<p class="card-text">
+										WELCOME, EVERYBODY COME WELCOME! THE
+										PRIMARY WORK OF THE HOSPITALITY
+										DEPARTMENT REVOLVES AROUND LOOKING AFTER
+										THE PARTICIPANTS, JUDGES AND AUDIENCE.
+										THEY MAKE SURE TO HEAR YOU OUT,
+										UNDERSTAND YOUR CONCERN, BECAUSE OF
+										WHICH, WHOEVER ENTERS AS A GUEST, LEAVES
+										AS A FRIEND.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
