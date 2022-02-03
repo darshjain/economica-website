@@ -149,3 +149,33 @@ html {
 	padding-bottom: 3rem;
 }
 
+/* AboutuUS */
+
+/* part1  */
+
+.AU-pic img {
+	display: block;
+	margin-top: 1.5%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+	border-radius: 8px;
+}
+
+.AU-pic hr {
+	margin: 25px 100px;
+	height: 2px;
+	background-color: brown;
+}
+
+.AU-pic p {
+	padding: 3%;
+	padding-top: 0px;
+	font-family: Helvetica;
+	color: black;
+	text-align: center;
+}
+
+/* .navbar {
+	background-color: #f0b9af;
+} */
