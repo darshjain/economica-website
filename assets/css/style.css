@@ -184,7 +184,9 @@ html {
 /* .navbar {
 	background-color: #f0b9af;
 } */
-
+.njflap-logo {
+	height: 35px;
+}
 /* ARTHOTSAV.HTML */
 .arthotsavPoster {
 	height: 80vh;
