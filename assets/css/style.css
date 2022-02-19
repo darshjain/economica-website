@@ -184,3 +184,20 @@ html {
 /* .navbar {
 	background-color: #f0b9af;
 } */
+
+/* ARTHOTSAV.HTML */
+.arthotsavPoster {
+	height: 80vh;
+}
+@media (max-width: 37.5em) {
+	.arthotsavPoster {
+		/* width: 80vw; */
+		height: 60vh;
+	}
+}
+.arthotsavDetails {
+	padding-top: 50px;
+}
+.footerSocial {
+	padding-right: 10px;
+}
