@@ -18,6 +18,11 @@ html {
 .navbar-brand {
 	max-width: fit-content;
 }
+
+.navbar li:hover {
+	border: 1px solid black;
+}
+
 .card-main {
 	max-width: 1500px;
 	/* max-height: 300px; */
