@@ -197,8 +197,13 @@ html {
 		height: 60vh;
 	}
 }
+
 .arthotsavDetails {
 	padding-top: 50px;
+	
+}
+.arthotsavDetails p{
+	align-self: center;
 }
 .footerSocial {
 	padding-right: 10px;
