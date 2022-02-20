@@ -200,11 +200,63 @@ html {
 
 .arthotsavDetails {
 	padding-top: 50px;
-	
+	padding-bottom: 20px;
 }
-.arthotsavDetails p{
+.arthotsavDetails p {
 	align-self: center;
+	text-align: justify;
 }
+
 .footerSocial {
 	padding-right: 10px;
+}
+
+.eventRow1 img {
+	height: 500px;
+	padding: 5px;
+}
+
+@media (max-width: 37.5em) {
+	.eventRow1 img {
+		/* width: 80vw; */
+		width: 100%;
+	}
+}
+.eventRow2 img {
+	height: 500px;
+	padding: 5px;
+}
+
+@media (max-width: 37.5em) {
+	.eventRow2 img {
+		/* width: 80vw; */
+		width: 100%;
+	}
+}
+.eventRow3 img {
+	height: 500px;
+	padding: 5px;
+}
+
+@media (max-width: 37.5em) {
+	.eventRow3 img {
+		/* width: 80vw; */
+		width: 100%;
+	}
+}
+.eventRow4 img {
+	height: 500px;
+	padding: 5px;
+
+	margin: 0px;
+}
+.eventRow4{
+	align-items: center;
+	text-align: center;
+}
+@media (max-width: 37.5em) {
+	.eventRow4 img {
+		/* width: 80vw; */
+		width: 100%;
+	}
 }
