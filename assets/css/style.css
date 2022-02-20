@@ -18,6 +18,11 @@ html {
 .navbar-brand {
 	max-width: fit-content;
 }
+
+.navbar li:hover {
+	border: 1px solid black;
+}
+
 .card-main {
 	max-width: 1500px;
 	/* max-height: 300px; */
@@ -50,7 +55,7 @@ html {
 }
 .header__title {
 	text-align: center;
-	color: black;
+	color: #4a4a4a;
 	font-size: 3.5rem;
 	font-weight: 600;
 }
@@ -60,7 +65,7 @@ html {
 	}
 }
 .header__subtitle {
-	color: black;
+	color: #4a4a4a;
 	text-align: center;
 	font-size: 1.62rem;
 	margin-bottom: 2rem;
@@ -75,7 +80,7 @@ html {
 	border-radius: 0rem;
 	margin-bottom: 2rem;
 	transition: 0.3s;
-	color: black;
+	color: #4a4a4a;
 	padding: 0.5rem 1rem;
 	border: 3px solid black;
 	font-size: 1.25rem;
@@ -93,7 +98,7 @@ html {
 	margin-top: 2rem;
 }
 .header__socials__icon i {
-	color: black;
+	color: #4a4a4a;
 	font-size: 1.75rem;
 	margin: 0 0.5rem;
 	transition: all 0.3s;
@@ -153,15 +158,28 @@ html {
 
 /* part1  */
 
-.AU-pic img {
-	display: block;
-	margin-top: 1.5%;
-	margin-left: auto;
-	margin-right: auto;
-	width: 35%;
-	border-radius: 8px;
+/* part1  */
+/* part1  */
+.AU-pic {
+	/* display: flex; */
+	margin-left: 2%;
+	margin-right: 2%;
+	align-items: center;
 }
 
+.AU-pic img {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	padding: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	/* margin-top: 1.5%; */
+	/* margin-left: auto;
+	margin-right: auto; */
+	width: 60%;
+	border-radius: 8px;
+}
 .AU-pic hr {
 	margin: 25px 100px;
 	height: 2px;
@@ -170,12 +188,131 @@ html {
 
 .AU-pic p {
 	padding: 3%;
-	padding-top: 0px;
+	margin-top: 0%;
+	padding: 0% 5%;
+	/* padding-top: 0px; */
 	font-family: Helvetica;
 	color: black;
+	text-align: justify;
+	letter-spacing: 1.1px;
+}
+
+.heading1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.heading1 h4 {
 	text-align: center;
+}
+
+.heading2 h4 {
+	text-align: center;
+}
+
+@media (max-width: 37.5em) {
+	.AU-pic img {
+		width: 80vw;
+		/* height: 60vh; */
+	}
 }
 
 /* .navbar {
 	background-color: #f0b9af;
 } */
+.njflap-logo {
+	height: 35px;
+}
+/* ARTHOTSAV.HTML */
+.arthotsavPoster {
+	height: 80vh;
+}
+@media (max-width: 37.5em) {
+	.arthotsavPoster {
+		/* width: 80vw; */
+		height: 60vh;
+	}
+}
+
+.arthotsavDetails {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.arthotsavDetails p {
+	align-self: center;
+	text-align: justify;
+}
+
+.footerSocial {
+	padding-right: 10px;
+}
+
+.eventRow1 img {
+	height: 500px;
+	padding: 5px;
+}
+
+@media (max-width: 37.5em) {
+	.eventRow1 img {
+		/* width: 80vw; */
+		width: 100%;
+	}
+}
+.eventRow2 img {
+	height: 500px;
+	padding: 5px;
+}
+
+@media (max-width: 37.5em) {
+	.eventRow2 img {
+		/* width: 80vw; */
+		width: 100%;
+	}
+}
+.eventRow3 img {
+	height: 500px;
+	padding: 5px;
+}
+
+@media (max-width: 37.5em) {
+	.eventRow3 img {
+		/* width: 80vw; */
+		width: 100%;
+	}
+}
+.eventRow4 img {
+	height: 500px;
+	padding: 5px;
+
+	margin: 0px;
+}
+.eventRow4 {
+	align-items: center;
+	text-align: center;
+}
+@media (max-width: 37.5em) {
+	.eventRow4 img {
+		/* width: 80vw; */
+		width: 100%;
+	}
+}
+.sponsors {
+	padding-top: 50px;
+	align-items: center;
+	text-align: center;
+}
+@media (max-width: 37.5em) {
+	.sponsors img {
+		/* width: 80vw; */
+		width: 100%;
+	}
+}
+.departmentContainer p {
+	align-items: center;
+	text-align: justify;
+}
+.buttonRegister {
+	padding-top: 80px;
+	margin-right: 0;
+	margin-left: 0;
+}
